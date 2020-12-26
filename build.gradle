@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// mainClassName = 'jamesw1892.mastermind'      no main class yet
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+run { // run with `gradle --console plain run -q` for user input
+    standardInput = System.in
+}
