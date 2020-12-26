@@ -1,3 +1,5 @@
+package jamesw1892.mastermind;
+
 import java.util.TreeSet;
 
 public class Choice {

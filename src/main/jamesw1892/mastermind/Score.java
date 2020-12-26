@@ -1,3 +1,5 @@
+package jamesw1892.mastermind;
+
 public class Score {
     private final int numWhite;
     private final int numBlack;
