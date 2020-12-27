@@ -17,3 +17,12 @@ A score consists of a number of white pegs and a number of black pegs. The numbe
 - `Colour.java`: An enum containing all possible colours.
 - `Choice.java`: An array of colours representing an answer of guess. Also contains a static method that calculates the score given an answer and a guess.
 - `Score.java`: Encapsulates the number of white and black pegs.
+- `Game.java`: Keeps track of the number of guesses and allows choices to be guessed.
+- `CLI.java`: The command line interface.
+
+# CLI
+
+When running the program, it is currently possible to do the following things:
+
+1. let one player pick an answer and another guess
+1. get the computer to pick a random answer and let you guess
